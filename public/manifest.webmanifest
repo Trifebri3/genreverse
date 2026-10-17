@@ -1,0 +1,25 @@
+{
+  "name": "GENREVERSE - Digital Playground for GenRe Youth",
+  "short_name": "GENREVERSE",
+  "description": "Platform edukasi, advokasi, LifeQuest, dan komunitas remaja nasional Duta GenRe Indonesia.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F8F3",
+  "theme_color": "#174D3A",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "social", "lifestyle"]
+}

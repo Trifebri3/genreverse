@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline - GENREVERSE</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #F7F8F3;
+      color: #174D3A;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 40px 30px;
+      max-width: 440px;
+      box-shadow: 0 10px 25px rgba(23, 77, 58, 0.08);
+      border: 1px solid rgba(23, 77, 58, 0.1);
+    }
+    .badge {
+      display: inline-block;
+      background: #F4C542;
+      color: #174D3A;
+      font-weight: 700;
+      padding: 6px 16px;
+      border-radius: 999px;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 12px;
+      color: #174D3A;
+    }
+    p {
+      color: #4a5568;
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+    button {
+      background: #174D3A;
+      color: #ffffff;
+      border: none;
+      font-weight: 600;
+      padding: 12px 24px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 15px;
+      transition: background 0.2s;
+    }
+    button:hover {
+      background: #0E5B5A;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">Mode Offline</div>
+    <h1>Koneksi Internet Terputus</h1>
+    <p>Kamu sedang berada di luar jaringan. Pastikan koneksi internet ponsel atau komputermu aktif kembali untuk melanjutkan belajar, LifeQuest, dan advokasi di GENREVERSE.</p>
+    <button onclick="window.location.reload()">Coba Muat Ulang</button>
+  </div>
+</body>
+</html>
